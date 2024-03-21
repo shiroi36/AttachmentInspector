@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+
+
+	<inspection day="2023/10/06" photo="C:\temp\kensa20231005\">
+		<!-- パレットの写真を指定。PALLET_ID_ORDEREDは修正指示を出したパレット -->
+	    <pallet rotno="2501">PA060088.JPG,PA060089.JPG</pallet>
+	    <pallet rotno="2502">PA060090.JPG,PA060091.JPG</pallet>
+	    <pallet rotno="2503">PA060092.JPG,PA060093.JPG</pallet>
+	    <pallet rotno="2504">PA060094.JPG,PA060095.JPG</pallet>
+	    <pallet rotno="2505">PA060096.JPG,PA060097.JPG</pallet>
+	    <pallet rotno="PALLET_ID_ORDERED">PA060136.JPG,PA060137.JPG</pallet>
+		<!-- 修正指示を出した金物 RかGかGWGの大きく分けて3種類 -->
+	    <order rotno="2504" pno="9" lr="r" remark="端部ピット状不整：G">PA060030.JPG,PA060031.JPG</order>
+	    <order rotno="2505" pno="9" lr="l" remark="端部開先残存：GWG">PA060032.JPG,PA060033.JPG,PA060034.JPG</order>
+	    <order rotno="2503" pno="9" lr="r" remark="端部キズ：G">PA060035.JPG,PA060036.JPG</order>
+
+	    <order rotno="2501" pno="10" lr="r" remark="ビード端部不整：G">PA060044.JPG,PA060045.JPG</order>
+	    <order rotno="2501" pno="08" lr="l" remark="ビード端部不整：G">PA060065.JPG,PA060066.JPG</order>
+	    <order rotno="2502" pno="01" lr="r" remark="ビード端部不整：G">PA060042.JPG,PA060043.JPG</order>
+	    <order rotno="2502" pno="04" lr="l" remark="ビード端部不整：G">PA060051.JPG,PA060052.JPG</order>
+	    <order rotno="2502" pno="05" lr="l" remark="ビード端部不整：G">PA060048.JPG,PA060049.JPG,PA060050.JPG</order>
+	    <order rotno="2503" pno="03" lr="r" remark="ビード端部不整：G">PA060046.JPG,PA060047.JPG</order>
+	    <order rotno="2503" pno="06" lr="l" remark="ビード端部不整：G">PA060061.JPG,PA060062.JPG</order>
+	    <order rotno="2503" pno="08" lr="r" remark="ビード端部不整：G">PA060059.JPG,PA060060.JPG</order>
+	    <order rotno="2503" pno="10" lr="r" remark="ビード端部不整：G">PA060057.JPG,PA060058.JPG</order>
+	    <order rotno="2504" pno="01" lr="l" remark="ビード端部不整：G">PA060053.JPG,PA060054.JPG</order>
+	    <order rotno="2504" pno="08" lr="r" remark="ビード端部不整：G">PA060063.JPG,PA060064.JPG</order>
+	    <order rotno="2505" pno="07" lr="l" remark="ビード端部不整：G">PA060067.JPG,PA060068.JPG</order>
+	    <order rotno="2505" pno="07" lr="r" remark="ビード端部不整：G">PA060055.JPG,PA060056.JPG</order>
+
+
+		<!-- 補修合格となる金物これにはremarkは必要ない-->
+	    <repair rotno="2504" pno="9" lr="r" >PA060115.JPG,PA060116.JPG,PA060117.JPG</repair>
+	    <repair rotno="2505" pno="9" lr="l" >PA060125.JPG,PA060126.JPG,PA060127.JPG</repair>
+	    <repair rotno="2503" pno="9" lr="r" >PA060103.JPG,PA060104.JPG</repair>
+
+	    <repair rotno="2501" pno="10" lr="r" >PA060113.JPG,PA060114.JPG</repair>
+	    <repair rotno="2501" pno="08" lr="l" >PA060123.JPG,PA060124.JPG</repair>
+	    <repair rotno="2502" pno="01" lr="r" >PA060111.JPG,PA060112.JPG</repair>
+	    <repair rotno="2502" pno="04" lr="l" >PA060133.JPG,PA060135.JPG</repair>
+	    <repair rotno="2502" pno="05" lr="l" >PA060130.JPG,PA060131.JPG,PA060132.JPG</repair>
+	    <repair rotno="2503" pno="03" lr="r" >PA060099.JPG,PA060100.JPG</repair>
+	    <repair rotno="2503" pno="06" lr="l" >PA060128.JPG,PA060129.JPG</repair>
+	    <repair rotno="2503" pno="08" lr="r" >PA060109.JPG,PA060110.JPG</repair>
+	    <repair rotno="2503" pno="10" lr="r" >PA060105.JPG,PA060106.JPG</repair>
+	    <repair rotno="2504" pno="01" lr="l" >PA060118.JPG,PA060119.JPG</repair>
+	    <repair rotno="2504" pno="08" lr="r" >PA060101.JPG,PA060102.JPG</repair>
+	    <repair rotno="2505" pno="07" lr="l" >PA060120.JPG,PA060121.JPG</repair>
+	    <repair rotno="2505" pno="07" lr="r" >PA060107.JPG,PA060108.JPG</repair>
+		<!-- 検査除外品つまり不良品 -->
+	    <!-- <defective rotno="2501" pno="6" lr="r" remark="検査対象外">P1030166.JPG,P1030167.JPG</defective> -->
+		<!-- 合格としてマクロ検査を行ったもの-->
+	    <!-- <macro rotno="2501" pno="7" lr="r" >P1030166.JPG,P1030167.JPG</macro> -->
+	</inspection>
+
+
+
+	<Setting>
+		<!-- DBのパス -->
+	    <url uname="junapp" pw="">jdbc:h2:./main2_2023</url>
+	    <!-- <url uname="junapp" pw="">jdbc:h2:tcp://localhost/./main2_2023</url> -->
+		<!-- 検査する金物の略称,で区切って複数できます。 -->
+	    <attachmenttype>t25</attachmenttype>
+		<!-- ロットの設定 -->
+	    <rotdef attachment="t25" num="12">2501</rotdef>
+	    <rotdef attachment="t25" num="12">2502</rotdef>
+	    <rotdef attachment="t25" num="12">2503</rotdef>
+	    <rotdef attachment="t25" num="12">2504</rotdef>
+	    <rotdef attachment="t25" num="10">2505</rotdef>
+	</Setting>
+
+
+
+
+</div>

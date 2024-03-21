@@ -1,0 +1,149 @@
+SQL_OPE: log 2023/10/06 16:03:59
+-------------------------------------------------------------------------------------------------------------------------
+SELECT rotnum,serial,type,lr,init,
+rep,repcheck,disqualified,
+qualified,macro,remark
+ FROM "PUBLIC".RECORD 
+ where rep=@day 
+ order by rotnum,serial,LR;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT rotnum,serial,type,lr,init,
+rep,repcheck,disqualified,
+qualified,macro,remark
+ FROM "PUBLIC".RECORD 
+ where repcheck =@day 
+ order by rotnum,serial,LR;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT rotnum FROM "PUBLIC".RECORD where init='2023-10-06' group by rotnum;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and type=@type and disqualified is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init <> @day and repcheck=@day and type=@type  and disqualified is null  and rep <> @day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and (repcheck  <>  @day or repcheck is null) and type=@type  and disqualified is null  and rep=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day  and type=@type and qualified=@day and disqualified is null and macro is null; 
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day  and type=@type and disqualified is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and type=@type  and repcheck is null  and qualified is null  and disqualified is null  and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and qualified=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and disqualified=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro=@day  and type=@type ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified=@day  and type=@type and macro is null;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and disqualified is null  and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and disqualified is null  and type=@type  and repcheck=@day and rep  <>  @day and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and disqualified is null  and type=@type  and (repcheck  <>  @day or repcheck is null) and rep=@day and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and qualified=@day and macro is null and type=@type  and LR='L' ; 
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and disqualified is null  and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and repcheck is null  and type=@type  and qualified is null  and disqualified is null  and LR='L'  and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and qualified=@day and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and disqualified=@day and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro=@day and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified=@day  and macro is null  and type=@type  and LR='L' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and disqualified is null  and type=@type  and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and disqualified is null  and type=@type  and repcheck=@day and rep  <>  @day and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and disqualified is null  and type=@type  and (repcheck  <>  @day or repcheck is null) and rep=@day and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and qualified=@day  and type=@type and macro is null and LR='R' ; 
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and type=@type  and disqualified is null  and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and type=@type  and repcheck is null  and qualified is null  and disqualified is null  and LR='R'  and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and qualified=@day and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and disqualified=@day and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro=@day and type=@type  and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified=@day  and macro is null and type=@type  and LR='R' ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init is not null  and disqualified is null  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep  is not  null and repcheck is null  and qualified is null  and disqualified is null  and type= 't25' and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck is not null and disqualified is not null and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro is not null  and disqualified is null  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified is not null  and disqualified is null  and type= 't25'and macro is null;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init is not null and disqualified is null  and LR='L'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep is not null and repcheck is null  and qualified is null  and disqualified is null  and LR='L'  and type= 't25' and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck is not null  and LR='L'  and type= 't25' and disqualified is not null;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro is not null and disqualified is null  and LR='L'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified is not null and macro is null and disqualified is null  and LR='L'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init is not null and disqualified is null  and LR='R'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep is not null and repcheck is null  and qualified is null  and disqualified is null  and LR='R'  and type= 't25' and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck is not null  and LR='R'  and type= 't25' and disqualified is not null;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro is not null and disqualified is null  and LR='R'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified is not null and macro is null and disqualified is null  and LR='R'  and type= 't25';
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='L' and rotnum=2501;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='R' and rotnum=2501;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='L' and rotnum=2502;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='R' and rotnum=2502;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='L' and rotnum=2503;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='R' and rotnum=2503;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='L' and rotnum=2504;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='R' and rotnum=2504;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='L' and rotnum=2505;
+-------------------------------------------------------------------------------------------------------------------------
+SELECT count(LR) FROM "PUBLIC".RECORD where init='2023-10-06' and qualified='2023-10-06' and LR='R' and rotnum=2505;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and type=@type and disqualified is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init <> @day and repcheck=@day and type=@type  and disqualified is null  and rep <> @day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init  <>  @day and (repcheck  <>  @day or repcheck is null) and type=@type  and disqualified is null  and rep=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day  and type=@type and qualified=@day and disqualified is null and macro is null; 
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day  and type=@type and disqualified is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where rep=@day and type=@type  and repcheck is null  and qualified is null  and disqualified is null  and macro is null ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and qualified=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where repcheck=@day  and type=@type  and disqualified=@day;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where macro=@day  and type=@type ;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where qualified=@day  and type=@type and macro is null;
+-------------------------------------------------------------------------------------------------------------------------
+select count(*) from record where init=@day and disqualifi

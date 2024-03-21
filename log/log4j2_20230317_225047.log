@@ -1,0 +1,22 @@
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 INFO  core.xmlcontroller :
+                 rotdef 
+2023-03-17 22:50 ERROR core.xmlcontroller :
+                 class [Ljava.lang.Object; cannot be cast to class [Lorg.w3c.dom.Element; ([Ljava.lang.Object; is in module java.base of loader 'bootstrap'; [Lorg.w3c.dom.Element; is in module java.xml of loader 'bootstrap') 

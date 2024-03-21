@@ -1,0 +1,118 @@
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 jdbc:h2:./main2_2023	junapp	 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 5 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 [2501, t25, 12] 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 [2502, t25, 12] 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 [2503, t25, 12] 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 [2504, t25, 12] 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 [2505, t25, 10] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 day:2023/10/06 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 photopath;C:\temp\kensa20231005\ 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2501 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:2501	photo;[PA060088.JPG, PA060089.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:2502	photo;[PA060090.JPG, PA060091.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:2503	photo;[PA060092.JPG, PA060093.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:2504	photo;[PA060094.JPG, PA060095.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:2505	photo;[PA060096.JPG, PA060097.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 PALLET_ID_ORDERED 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 rotno:9999	photo;[PA060136.JPG, PA060137.JPG] 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-09R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-09L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-09R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2501-10R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2501-08L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-01R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-04L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-05L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-03R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-06L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-08R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-10R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-01L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-08R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-07L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-07R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-09R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-09L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-09R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2501-10R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2501-08L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-01R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-04L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2502-05L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-03R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-06L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-08R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2503-10R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-01L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2504-08R 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-07L 
+2023-10-06 15:57 DEBUG core.xmlcontroller :
+                 2505-07R 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 Input Inspection at DAY:2023/10/06 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 Creating Inspection Report at DAY:2023/10/06 
+2023-10-06 15:57 INFO  core.WordWriter :
+                 Done. See output/2023-10-06_unRepaired.doc 
+2023-10-06 15:57 INFO  core.WordWriter :
+                 Done. See output/2023-10-06.doc 
+2023-10-06 15:57 INFO  core.xmlcontroller :
+                 Creating Cumulative Inspection Report at DAY:2023/10/06 
+2023-10-06 15:57 INFO  core.WordWriter :
+                 Done. See output/allresult.doc 

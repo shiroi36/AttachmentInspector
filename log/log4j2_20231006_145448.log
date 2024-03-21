@@ -1,0 +1,344 @@
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 jdbc:h2:./main2_2023	junapp	 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 5 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 [2501, t25, 12] 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 [2502, t25, 12] 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 [2503, t25, 12] 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 [2504, t25, 12] 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 [2505, t25, 10] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 day:2020/11/24 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 photopath;C:\temp\kensa20231005 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2501 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:2501	photo;[PA60019.JPG, PA60020.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:2502	photo;[PA60020.JPG, PA60021.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:2503	photo;[PA60021.JPG, PA60022.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:2504	photo;[PA60023.JPG, PA60024.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:2505	photo;[PA60024.JPG, PA60025.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 PALLET_ID_ORDERED 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 rotno:9999	photo;[PA60041.JPG] 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-09R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-09L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-09R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2501-10R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2501-08L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-01R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-04L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-05L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-03R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-06L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-08R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-10R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-01L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-08R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-07L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-07R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-09R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-09L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-09R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2501-10R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2501-08L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-01R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-04L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2502-05L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-03R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-06L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-08R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2503-10R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-01L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2504-08R 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-07L 
+2023-10-06 14:54 DEBUG core.xmlcontroller :
+                 2505-07R 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 Input Inspection at DAY:2020/11/24 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 Creating Inspection Report at DAY:2020/11/24 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60019.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60020.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60020.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60021.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60021.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60022.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60023.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60024.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60024.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60025.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60041.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60065.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60066.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60044.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60045.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60042.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60043.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60051.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60052.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60048.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60049.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60050.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60046.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60047.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60061.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60062.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60059.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60060.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60035.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60036.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60057.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60058.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60053.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60054.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60063.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60064.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60030.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60031.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60067.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60068.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60055.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60056.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60032.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60033.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60034.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60065.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60066.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60065.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60066.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60044.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60045.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60044.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60045.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60042.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60043.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60042.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60043.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60051.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60052.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60051.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60052.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60048.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60049.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60050.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60048.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60049.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60050.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60046.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60047.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60046.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60047.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60061.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60062.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60061.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60062.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60059.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60060.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60059.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60060.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60035.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60036.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60035.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60036.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60057.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60058.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60057.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60058.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60053.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60054.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60053.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60054.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60063.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60064.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60063.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60064.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60030.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60031.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60030.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60031.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60067.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60068.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60067.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60068.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60055.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60056.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60055.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60056.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60032.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60033.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60034.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60032.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60033.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 File Not Found: c:\temp\kensa20231005pa60034.jpg 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 Done. See output/2020-11-24_unRepaired.doc 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 Done. See output/2020-11-24.doc 
+2023-10-06 14:54 INFO  core.xmlcontroller :
+                 Creating Cumulative Inspection Report at DAY:2020/11/24 
+2023-10-06 14:54 INFO  core.WordWriter :
+                 Done. See output/allresult.doc 

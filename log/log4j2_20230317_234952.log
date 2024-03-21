@@ -1,0 +1,8 @@
+2023-03-17 23:49 DEBUG core.xmlcontroller :
+                 day:2020/11/24 
+2023-03-17 23:49 DEBUG core.xmlcontroller :
+                 photopath;photos/hirooka/photo210323 
+2023-03-17 23:49 DEBUG core.xmlcontroller :
+                 rotno:2501	photo;[P1030166.JPG, P1030167.JPG] 
+2023-03-17 23:49 ERROR core.xmlcontroller :
+                 For input string: "" 
