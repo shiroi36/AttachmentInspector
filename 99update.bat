@@ -38,6 +38,7 @@ ECHO +----[%INPUT_STR%]----+
 cd %path2%
 git fetch origin master
 git reset --hard origin/master
+del src\* /s /q
 cd %path1%
 
 
@@ -53,11 +54,9 @@ git push origin master
 explorer %path2%
 
 
-
 cd %path1%
 git fetch origin master
 git reset --hard origin/master
-
 
 @ECHO OFF
 
